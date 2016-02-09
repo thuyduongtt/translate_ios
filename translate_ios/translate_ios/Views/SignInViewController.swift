@@ -89,6 +89,7 @@ class SignInViewController: UIViewController {
     }
     
     @IBAction func btnSignInPressed() {
+        //TODO: remove these lines to test register form
         CurrentUser.getInstance().email = tfEmail.text!
         CurrentUser.getInstance().password = tfPassword.text!
         performSegueWithIdentifier("fromSignInToMain", sender: self)

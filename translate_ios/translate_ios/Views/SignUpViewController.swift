@@ -77,6 +77,7 @@ class SignUpViewController: UIViewController {
     }
     
     @IBAction func btnCreateAccountPressed() {
+        //TODO: remove these lines to test register form
         performSegueWithIdentifier("fromSignUpToMain", sender: self)
         return
         
